@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XX SITE</title>
+    <link rel="icon" type="image/x-icon" href="/forum/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+      @font-face {
+          font-family: 'Sora-Regular';
+          src: url('fonts/Sora-Regular.ttf') format('truetype');
+      }
+
+      @font-face {
+          font-family: 'Sora-Bold';
+          src: url('fonts/Sora-Bold.ttf') format('truetype');
+      }
+
+      @font-face {
+          font-family: 'Sora-Medium';
+          src: url('fonts/Sora-Medium.ttf') format('truetype');
+      }
+
+      @font-face {
+          font-family: 'Russo-One';
+          src: url('fonts/Russo_One.ttf') format('truetype');
+      }
+
+      @font-face {
+          font-family: 'OsnovaPro';
+          src: url('fonts/OsnovaPro.ttf') format('truetype');
+      }
+  </style>
+</head>
+<body>
+
+  <div id="preloader">
+    <div id="preloader-text">XXXX SİTE</div>
+</div>
+<div id="main-content" style="display: none;"></div>
+    <header>        
+        <div class="logo">
+            <img src="logo eklenebilir" alt="XXXX Site Logo">
+            <span style="color: #f9f9f9; font-weight: 700; font-size: 20px;">XXXX SİTE</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="link">Ana Sayfa</a></li>
+                <li><a href="link">Bize Katılın</a></li>
+                <li><a href="link">Sosyal Medya</a></li>
+                <li><a href="link" class="btn">Ürünlerimiz</a></li>
+                <li><a href="Link" class="btn">Hakkımızda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero"> 
+      <div class="hero-container">
+          <h1>Hoş geldiniz!</h1>
+          <h2>
+            <span>XXXX</span>
+            SİTE
+          </h2>
+          <p style="font-weight: 300;font-size: x-large;">XXX Resmi Web Sitesi<br> 
+              Site üzerindeki yönlendirmelerden hakkımızda bilgi alabilirsiniz.</p>
+            </div>
+          <div class="button-container">
+            <a href="link gelecek" class="join-btn">Yönlendirme1 &lt;/&gt;</a>
+              <div class="button">
+                  <a href="link gelecek" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+              </div>
+              <div class="button">
+                  <a href="link gelecek" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+              <div class="button">
+                <a href="link gelecek" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+          </div>
+        <div class="mato-container">  
+          <a href="xxxxx" class="join-btn-mato">Yönlendirme2</a>
+          <a href="xxxxx" class="join-btn-mato">Yönlendirme3</a>
+        </div>
+
+      <!-- <div class="stats-container">
+        <div class="stat-box">
+            <strong>40</strong>
+            <span>Rekor Oyuncu</span>
+        </div>
+        <div class="stat-box">
+            <strong id="registeredNumber">0</strong>
+            <span>Toplam Kayıtlı Oyuncu</span>
+        </div>
+        <div class="stat-box">
+            <strong>17</strong>
+            <span>Toplam Yetkili</span>
+        </div>
+        <div class="stat-box">
+            <strong>204</strong>
+            <span>Toplam Mülk</span>
+        </div>
+    </div>  -->
+    <div class="intro_text">
+      <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+                font-size="80" stroke="white" fill="transparent"
+                stroke-width="0.6" class="animated-text">
+              XXXX SİTE
+          </text>
+      </svg>
+  </div> 
+  </main>
+
+     <footer>
+        <p>&copy; 2025 XXXX Site. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          setTimeout(function () {
+              document.getElementById("preloader").classList.add("hidden");
+              setTimeout(function () {
+                  document.getElementById("preloader").style.display = "none";
+                  document.getElementById("main-content").classList.add("show-content");
+              }, 1000);
+          }, 1000);
+      });
+  </script>
+
+</body>
+</html>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgb(24, 24, 24) 35%, rgb(7, 7, 7) 110%);
+  background-color: #0a0704; /* Koyu bir arka plan rengi */
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: 'Sora-Regular', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.logo img {
+  height: 3vw;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff9d00;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 16rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 9rem;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0.8vw;
+}
+
+/* Hover Efekti */
+.button:hover {
+    background-color: rgba(153, 153, 153, 0.2);
+    box-shadow: 0 0 8px rgba(75, 75, 75, 0.5);
+}
+
+/* İkon Stili */
+.button i {
+    transition: transform 0.2s ease-in-out, color 0.2s;
+    color: #f9f9f9;
+}
+
+/* Hover Efekti: İkon büyütme ve renk değiştirme */
+.button:hover i {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.btn {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsl(0, 0%, 72%);
+  --btn-bg-2: hsl(0, 1%, 19%);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, hsl(0, 0%, 11%) 0%, hsl(0, 0%, 31%) 55%, hsl(0, 0%, 39%) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(10, 10, 10, 0.712),
+    0px 5px 5px -1px rgba(58, 58, 58, 0.25),
+    inset 4px 4px 8px rgba(240, 238, 238, 0.678),
+    inset -4px -4px 8px rgba(245, 244, 244, 0.658);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
+
+
+main {
+  padding: 5rem !important;
+}
+
+h1 {
+  font-size: 2vw;
+  color: #f9f9f9;
+  font-family: 'Sora-Medium', 'sans-serif';
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: 'Sora-Medium', 'sans-serif';
+  font-weight: 700;
+  display: flex;
+  flex-direction: column; /* Alt alta sıralar */
+  margin-bottom: 5px;
+}
+
+h2 span {
+  display: block; /* Alt alta geçmesini sağlar */
+	background: #282929;
+  background: repeating-radial-gradient(circle farthest-corner at center center, #6e6e6e 70%, #4d4d4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.join-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.join-btn:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.05);
+} 
+
+.mato-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 9rem;
+  margin-top: 5rem;
+}
+
+.join-btn-mato {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.join-btn-mato:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.05);
+} 
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Sol hizalama */
+    color: white;
+}
+
+.hero-container {
+    text-align: left;
+    margin-left: 9.5rem;
+    margin-top: -4rem;
+    max-width: 700px;
+    animation: slideIn 1s ease-out;
+    animation-delay: 1s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.stat-box {
+    padding: 60px 80px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px); /* Hover olduğunda hafif yukarı kayma efekti */
+}
+
+.stat-box strong {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.stat-box span {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    margin-top: 12px;
+}
+
+footer {
+  padding: 10px;
+  margin-top: 9vw;
+}
+
+.intro_text {
+    font-family: 'Russo-One';
+    position: absolute;
+    width: 100%;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    justify-content: center;
+    z-index: -1;
+    animation: 3s pulsate infinite alternateease-in-out;
+}
+
+
+.animated-text {
+    stroke-dasharray: 500; /* Çizginin toplam uzunluğu */
+    stroke-dashoffset: 500; /* Başlangıçta tamamen görünmez */
+    transform-origin: center center; /* Tam ortadan büyümesini sağlıyor */
+    animation: drawText 6s linear forwards 2s, /* 1 saniye gecikme */
+    pulsate 3s infinite alternate ease-in-out 2s; /* 1 saniye gecikme */
+}
+
+@keyframes drawText {
+    0% {
+        stroke-dashoffset: 500;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05); /* Biraz daha belirgin büyüme */
+    }
+}
+
+/* Preloader Stili */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #14131d; /* Arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Preloader içindeki yazı */
+#preloader-text {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #8B8B8B 50%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeUp 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
+
+
+/* Ana içeriği başlangıçta gizle */
+#main-content {
+  display: none;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Yazının yukarı kayarak kaybolması */
+@keyframes fadeUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        clip-path: ellipse(180% 80% at 50% 100%);
+        transform: translateY(0);
+    }
+    40% {
+        clip-path: ellipse(120% 60% at 50% 100%);
+    }
+    70% {
+        clip-path: ellipse(80% 40% at 50% 100%);
+    }
+    100% {
+        clip-path: ellipse(0% 0% at 50% 100%);
+        transform: translateY(100%);
+    }
+}
+
+.hidden {
+    animation: slideUp 1.2s ease-in-out forwards;
+}
+
+
+/* Ana içeriği aç */
+.show-content {
+    display: block !important;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  .logo img {
+    height: 10vw;
+  }
+
+  .logo span {
+    font-size: 16px;
+  }
+
+  .logo {
+    margin: -3rem;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 6rem;
+  }
+
+  .btn {
+    display: none !important;
+  }
+
+  .hero-container {
+    margin-left: 0;
+    margin-top: -100px;
+  }
+
+  .button-container {
+    margin-left: 0;
+    margin-top: -30px;
+    gap: 10px;
+  }
+
+  .button {
+    width: 45px;
+  }
+
+  .mato-container {
+    margin-left: 0;
+    margin-top: 5vw;
+    gap: 10vw;
+  }
+
+  .body {
+    overflow-x: scroll !important;
+  }
+
+  .intro_text {
+    left: 50vw;
+    width: 200%;
+  }
+
+}
+
+</style>
