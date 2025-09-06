@@ -1,3 +1,3 @@
-# mtasa-rp-web-theme
+# web-theme
 
-MTA:SA sunucularınızda kullanabileceğiniz web sitesi temasıdır.
+Web sitesi teması. HTML, CSS ve JS ile yapılmıştır.
